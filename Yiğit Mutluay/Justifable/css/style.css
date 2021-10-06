@@ -87,6 +87,7 @@ body{
     font-weight: bold;
     padding: 20px 50px;
     line-height: 10;
+    margin-left: 20px;
 }
 .asf{
     text-align: justify;
@@ -108,6 +109,7 @@ body{
 .content-3{
     color: #fff;
     background-color: black;
+    text-align: center;
 }
 .asd a{
     font-weight: bold;
@@ -146,4 +148,16 @@ body{
 .flex-2 img:hover{
     opacity: 1;
     transition: opacity 0.5s;
+}
+.sonn{
+    margin: 30px 20%;
+    color: #808080;
+}
+.beyaz{
+    height: 75px;
+}
+.copyright{
+    padding-top: 60px;
+    text-align: center;
+    background-color: #E6E6E6;
 }
