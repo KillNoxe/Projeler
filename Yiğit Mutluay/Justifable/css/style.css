@@ -42,7 +42,15 @@ body{
 	height: 0;
 	border-left: 45px solid transparent;
 	border-right: 45px solid transparent;
-	border-top: 40px solid #000;
+}
+.renk1{
+    border-top: 40px solid #000;
+}
+.renk2{
+    border-top: 40px solid #fff;
+}
+.renk3{
+    border-top: 40px solid #F4F4F4;
 }
 #kilit{
     width: 100px;
@@ -50,9 +58,92 @@ body{
 .flex{
     display: flex;
     flex-wrap: nowrap;
+    text-align: center;
 }
 .flex img{
     width: 150px;
     height: 150px;
     margin: 90px;
+    margin-bottom: 0px;
+}
+.baslik{
+    font-weight: bold;
+    color: #4BC0e3;
+    font-size: 24px;
+}
+.yazi{
+    text-align: justify;
+    margin-right: 20px;
+}
+.content-2{
+    background-color: #F4F4F4;
+    margin-top: 30px;
+    padding-bottom: 100px;
+}
+.learn-more{
+    color: #fff;
+    background-color: #01A9DC;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px 50px;
+    line-height: 10;
+}
+.asf{
+    text-align: justify;
+}
+.asd{
+    margin-left: 10%;
+}
+.asd h2{
+    margin-bottom: 0;
+}
+.as{
+    margin-top: 0;
+    color: #808080;
+    text-align: justify;
+}
+.clearfix {
+    overflow: auto;
+}
+.content-3{
+    color: #fff;
+    background-color: black;
+}
+.asd a{
+    font-weight: bold;
+}
+.siyah{
+    color: #000;
+    text-decoration: none;
+}
+.mavi{
+    color: #01A9DC;
+}
+.mavi:hover{
+    text-decoration: none;
+}
+.footer{
+    font-weight: bold;
+    margin-top: 50px;
+    text-align: center;
+}
+.footer p{
+    color: #808080;
+    font-size: 16px;
+}
+.flex-2{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.flex-2 img{
+    width: 300px;
+    height: 150px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+.flex-2 img:hover{
+    opacity: 1;
+    transition: opacity 0.5s;
 }
