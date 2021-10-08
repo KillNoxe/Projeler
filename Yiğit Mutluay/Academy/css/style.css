@@ -163,16 +163,27 @@ form{
     height: 440px;
     font-weight: bold;
 }
+.gec{
+    position: absolute;
+    top: 0;
+    opacity: 1;
+    transition: opacity 5s,top 5s;
+}
+.gecis{
+    opacity: 0;
+    top: -440px;
+}
 .siyah2 p{
     position: absolute;
     margin-top: 16%;
-    width: 100%;
+    width: 600px;
     z-index: 1;
     text-align: center;
     font-size: 40px;
     color: #007FFF;
     font-weight: bold;
-    transition: height 2s;
+    left: 200px;
+    top: 150px;
 }
 .siyah2 a{
     position: absolute;
@@ -182,11 +193,10 @@ form{
     z-index: 1;
     font-size: 14px;
     background-color: #007FFF;
-    bottom: 32%;
-    right: 6%;
+    top: 350px;
+    left: 800px;
     border-radius: 10%;
     width: 100px;
     height: 50px;
     line-height: 52px;
-    transition: display 2s;
 }

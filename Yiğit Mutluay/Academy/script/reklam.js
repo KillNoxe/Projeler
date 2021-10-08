@@ -1,8 +1,10 @@
-function kapat() {
-    document.getElementById("promo").style.display = "none";
-    document.getElementById("promo2").style.display = "none";
+function kapat(kapatid){
+  var kapatid;
+  // console.log(kapatid);
+  document.getElementById(kapatid).style.display = "none";
   }
- function renk(){
+
+function renk(){
    var s1;
    var s2;
    var s3;
@@ -14,3 +16,7 @@ function kapat() {
    document.getElementById("akademi").style.color = "rgb" + renk ;
    console.log(renk);
  }
+//  function gecis(){
+//   let gecis = document.getElementById("gecis");
+//   gecis.classList.add('gecis')
+//  }

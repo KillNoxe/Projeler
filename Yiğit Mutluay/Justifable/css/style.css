@@ -8,15 +8,18 @@ body{
     margin-top: 4%;
 }
 .header{
-    display: inline;
+    display: inline-block;
 }
 .header-2{
     color: #4BC0E3;
-    display: inline;
+    display: inline-block;
 }
-.design{
-    padding-left: 105px;
-    font-size: 12px;
+.kilit{
+    display: inline-block;
+}
+.header p{
+    color: #808080;
+    font-size: 10px;
     margin: 0;
 }
 .content{
@@ -32,9 +35,17 @@ body{
     color: #808080;
     font-size: 14px;
 }
+.link-item-renkli{
+    text-decoration: none;
+    font-weight: bold;
+    padding: 22px 14px;
+    color: #808080;
+    font-size: 14px;
+    background-color: #01A9DC;
+    color: #fff;
+}
 .link-item:hover{
     color: #fff;
-    background-color: #01A9DC;
 }
 .triangle-down {
     margin-left: 46%;
@@ -51,9 +62,6 @@ body{
 }
 .renk3{
     border-top: 40px solid #F4F4F4;
-}
-#kilit{
-    width: 100px;
 }
 .flex{
     display: flex;
@@ -72,8 +80,8 @@ body{
     font-size: 24px;
 }
 .yazi{
-    text-align: justify;
-    margin-right: 20px;
+    text-align: center;
+    margin: 0 10px;
 }
 .content-2{
     background-color: #F4F4F4;
@@ -93,7 +101,7 @@ body{
     text-align: justify;
 }
 .asd{
-    margin-left: 10%;
+    margin: 0 5%;
 }
 .asd h2{
     margin-bottom: 0;
@@ -154,10 +162,13 @@ body{
     color: #808080;
 }
 .beyaz{
-    height: 75px;
+    height: 60px;
 }
 .copyright{
     padding-top: 60px;
+    padding-bottom: 20px;
     text-align: center;
     background-color: #E6E6E6;
+    line-height: 2;
+    letter-spacing: 1.3px;
 }
